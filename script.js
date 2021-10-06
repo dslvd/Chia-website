@@ -4,6 +4,6 @@ setInterval(()=>{
     counter.innerText = count;
     count++
     
-    if(count > 5) location.replace('https://discord.gg/yBNsy7F7kN')
+    if(count > 5) location.replace('https://discord.gg/U4AzzphUEX')
     
 },1000)
