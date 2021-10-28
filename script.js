@@ -6,4 +6,4 @@ setInterval(()=>{
     
     if(count > 1) location.replace('https://discord.gg/MKXzrb8wfN')
     
-},10000)
+},9000)
