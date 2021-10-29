@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>dsolved</title>
+        <link rel="shortcut icon" type="image/jpg" href="assets/images/favi.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="dslvd">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="https://dslvd.github.io/">
+        <meta property="og:image" content="https://imgur.com/a/PpLazWz">
+        <meta name="theme-color" content="#191919">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.1;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">tap to enter</span>
+                    <span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter</span>
+                </label>
+            </div>
+            <audio loop="" preload="auto" id="audio">
+                <source src="assets/audio/audio.mp3" type="audio/mp3">
+            </audio>
+            <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="assets/images/bg.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #FFC0CB;">dsolved</h1>
+                <p style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">hey welcome👋 what's good?</p>
+                -
+                <div class="socials">
+                    <a href="https://discord.gg/HMhyWeE9Hg" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">server</a>
+                    /
+                    <a href="https://www.instagram.com/mtttheu/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">instagram</a>
+                    /
+                    <a href="https://www.youtube.com/c/Dissolvedd" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">yt</a>
+            </div>
+
+        </main>
+</body>
+</html>
