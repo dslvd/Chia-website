@@ -15,10 +15,14 @@
     <title>Chia</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/loader.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-
+    <div class="loader">
+        <div></div>
+    </div>
     <!-- Navigation -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -93,6 +97,13 @@
       })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-105341142-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(1000);
+            $(".content").fadeIn(1000);
+        });
     </script>
 </body>
 
