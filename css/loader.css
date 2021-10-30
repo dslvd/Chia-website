@@ -22,7 +22,7 @@ h5{
 .loader>div{
     height: 100px;
     width: 100px;
-    border: 15px solid #45474b;
+    border: 5px solid #45474b;
     border-top-color: #9569ce;
     position: absolute;
     margin: auto;
@@ -31,7 +31,7 @@ h5{
     left: 0;
     right: 0;
     border-radius: 50%;
-    animation: spin 1.5s infinite linear;
+    animation: spin 0.5s infinite linear;
 }
 @keyframes spin{
     100%{
