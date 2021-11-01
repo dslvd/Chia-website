@@ -22,9 +22,10 @@
 </head>
 
 <body>
-    <div class="loader">
-        <div></div>
-    </div>
+    <background class="center">
+        <backdround class="ring"></backdround>
+        <span>loading...</span>
+    </background>
     <!-- Navigation -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -107,8 +108,8 @@
     
     <script>
         $(window).on('load',function(){
-            $(".loader").fadeOut(1000);
-            $(".content").fadeIn(1000);
+            $(".center").fadeOut(1000);
+            $(".content").fadeIn(2000);
         });
     </script>
 </body>
