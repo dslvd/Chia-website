@@ -28,8 +28,8 @@ body{
   text-align: center;
 }
 .content h2.header{
-  font-size: 15vw;
-  line-height: 1em;
+  font-size: 12vw;
+  line-height: 1.3em;
   position: relative;
 }
 .content h2.header:after{
